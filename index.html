@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Koperasi Desa - Penyedia kebutuhan barang harian berkualitas dari UMKM lokal.">
+    <title>Koperasi Desa | Produk Harian UMKM Lokal</title>
+    <!-- Menggunakan relative path agar kompatibel dengan S3 / GCS / Cloud CDN -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="brand">Koperasi<span>Desa</span></a>
+            <nav>
+                <a href="#produk">Produk Harian</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#kontak" class="btn-nav">Hubungi Pengurus</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Belanja Kebutuhan Harian, Majukan Ekonomi Desa</h1>
+            <p>Produk sembako, olahan pangan, dan perlengkapan rumah tangga langsung dari petani serta pelaku UMKM desa kita.</p>
+            <a href="#produk" class="btn-primary">Lihat Katalog Hari Ini</a>
+        </div>
+    </section>
+
+    <main id="produk" class="container section">
+        <h2 class="section-title">Katalog Produk Harian</h2>
+        <p class="section-subtitle">Stok diperbarui setiap pagi langsung dari gudang koperasi.</p>
+
+        <div class="product-grid">
+            <!-- Produk 1 -->
+            <article class="card">
+                <div class="badge">Terlaris</div>
+                <div class="card-img-placeholder">🌾</div>
+                <div class="card-body">
+                    <h3>Beras Pulen Organik 5kg</h3>
+                    <p class="desc">Hasil panen kelompok tani Desa Makmur, tanpa pemutih dan pengawet.</p>
+                    <p class="price">Rp 68.000</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Koperasi%20Desa,%20saya%20mau%20pesan%20Beras%20Pulen%205kg" target="_blank" class="btn-order">Pesan via WhatsApp</a>
+                </div>
+            </article>
+
+            <!-- Produk 2 -->
+            <article class="card">
+                <div class="card-img-placeholder">🥚</div>
+                <div class="card-body">
+                    <h3>Telur Ayam Kampung (10 Butir)</h3>
+                    <p class="desc">Segar setiap hari dari peternakan mandiri warga RT 04.</p>
+                    <p class="price">Rp 25.000</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Koperasi%20Desa,%20saya%20mau%20pesan%20Telur%20Ayam%20Kampung" target="_blank" class="btn-order">Pesan via WhatsApp</a>
+                </div>
+            </article>
+
+            <!-- Produk 3 -->
+            <article class="card">
+                <div class="badge">UMKM</div>
+                <div class="card-img-placeholder">🥥</div>
+                <div class="card-body">
+                    <h3>Minyak Kelapa Murni (VCO) 500ml</h3>
+                    <p class="desc">Olahan ibu-ibu PKK desa, jernih dan sehat untuk memasak harian.</p>
+                    <p class="price">Rp 32.000</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Koperasi%20Desa,%20saya%20mau%20pesan%20Minyak%20Kelapa%20500ml" target="_blank" class="btn-order">Pesan via WhatsApp</a>
+                </div>
+            </article>
+
+            <!-- Produk 4 -->
+            <article class="card">
+                <div class="card-img-placeholder">🧼</div>
+                <div class="card-body">
+                    <h3>Sabun Cuci Piring Ekstrak Jeruk 800ml</h3>
+                    <p class="desc">Produk pembersih ramah lingkungan buatan pemuda karang taruna.</p>
+                    <p class="price">Rp 12.000</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Koperasi%20Desa,%20saya%20mau%20pesan%20Sabun%20Cuci%20Piring" target="_blank" class="btn-order">Pesan via WhatsApp</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <section id="tentang" class="info-banner">
+        <div class="container">
+            <h2>Dari Warga, Oleh Warga, Untuk Warga</h2>
+            <p>Setiap transaksi di Koperasi Desa memberikan keuntungan langsung bagi produsen lokal dan menambah Sisa Hasil Usaha (SHU) anggota.</p>
+        </div>
+    </section>
+
+    <footer id="kontak" class="footer">
+        <div class="container">
+            <p><strong>Koperasi Desa Sejahtera Mandiri</strong></p>
+            <p>Jl. Balai Desa No. 01 | Buka Senin – Sabtu (07.00 – 17.00 WIB)</p>
+            <p class="cloud-note">Hosted on Cloud Static Storage • Cepat, Aman, & Hemat Energi</p>
+        </div>
+    </footer>
+
+</body>
+      </html>
